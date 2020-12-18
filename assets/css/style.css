@@ -69,20 +69,22 @@ footer h2 {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+.content > article img {
+    float: left;
+    margin-right: 25px;
+}
+
+.content > article:nth-child(even) img {
+    float: right;
+    margin-left: 25px;
 }
 
 .benefits {
