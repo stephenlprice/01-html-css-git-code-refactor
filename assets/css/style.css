@@ -1,3 +1,5 @@
+/* generic selectors */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +9,17 @@
 body {
     background-color: #d9dcd6;
 }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* header */
 
 header {
     padding: 20px;
@@ -42,14 +55,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
+/* footer */
 
 footer {
     padding: 30px;
@@ -62,6 +68,8 @@ footer h2 {
     font-size: 20px;
 }
 
+/* main banner image for the landing page */
+
 .banner {
     height: 800px;
     width: 100%;
@@ -69,6 +77,8 @@ footer h2 {
     background-size: cover;
     background-position: center;
 }
+
+/* main content section */
 
 /* kepts a content class in case new 
 sections get added to the website */
@@ -103,6 +113,8 @@ section.content > article > h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* left hand aside */
 
 aside {
     margin-right: 20px;
